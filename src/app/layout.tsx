@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PRSchool — 从零到 Pull Request",
+  title: "Learn Claude Code — 从零到 Pull Request",
   description:
     "手机上就能学的交互式教程，教你用 Claude Code 给 GitHub 项目贡献代码",
 };

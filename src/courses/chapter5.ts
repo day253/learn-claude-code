@@ -231,7 +231,7 @@ const level5_4: Level = {
     "现在把所有技能串起来：用 Claude Code 完成从 Fork 到 PR 的全部流程。这就是你毕业后的日常操作。",
   instructions: [
     "来走一遍完整流程。启动 Claude Code：`claude`",
-    "说：`帮我 clone https://github.com/prschool/practice-repo.git`",
+    "说：`帮我 clone https://github.com/learn-claude-code/practice-repo.git`",
     "说：`创建一个 my-contribution 分支`",
     "说：`在根目录创建 students/my-name.json，内容是我的学习记录`",
     "说：`提交并推送`",

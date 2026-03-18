@@ -22,9 +22,9 @@ import { LAYERS, CHAPTER_META, LAYER_COLORS } from "@/lib/constants";
 import { chapters } from "@/courses";
 
 const TYPING_LINES = [
-  { prompt: "student@prschool:~$ ", text: "git checkout -b my-first-pr", delay: 0 },
+  { prompt: "student@learn:~$ ", text: "git checkout -b my-first-pr", delay: 0 },
   { output: "Switched to branch 'my-first-pr'", delay: 1200 },
-  { prompt: "student@prschool:~ (my-first-pr)$ ", text: "claude", delay: 2000 },
+  { prompt: "student@learn:~ (my-first-pr)$ ", text: "claude", delay: 2000 },
   { output: "\u{1F916} Claude Code \u5DF2\u542F\u52A8\uFF01", outputClass: "text-emerald-400", delay: 3000 },
   { prompt: "\u{1F916} claude > ", text: "\u5E2E\u6211\u4FEE\u590D README \u91CC\u7684\u9519\u522B\u5B57\u7136\u540E\u63D0\u4EA4", delay: 3600 },
   { output: "\u{1F4AD} \u5206\u6790 README \u4E2D\u7684\u62FC\u5199\u9519\u8BEF...", outputClass: "text-zinc-500 italic text-xs", delay: 5000 },
@@ -188,7 +188,7 @@ export default function Landing() {
             <ArrowRight size={16} />
           </Link>
           <a
-            href="https://github.com/shareAI-lab/learn-claude-code"
+            href="https://github.com/day253/learn-claude-code"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-transparent border border-[var(--color-border)] text-[var(--color-text-secondary)] rounded-xl font-medium hover:border-[var(--color-border-hover)] hover:text-[var(--color-text)] transition-colors text-sm"
@@ -317,7 +317,7 @@ export default function Landing() {
       <section className="px-4 pb-20 max-w-3xl mx-auto">
         <motion.div {...fadeUp} className="text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-3">
-            \u4E3A\u4EC0\u4E48\u9009 PRSchool
+            \u4E3A\u4EC0\u4E48\u9009 Learn Claude Code
           </h2>
         </motion.div>
 
@@ -367,7 +367,7 @@ export default function Landing() {
 
       {/* Footer */}
       <footer className="px-4 py-8 border-t border-[var(--color-border)] text-center text-xs text-[var(--color-text-muted)]">
-        PRSchool \u00A9 2026 \u00B7 \u8BA9\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u4E3A\u5F00\u6E90\u8D21\u732E\u4EE3\u7801
+        Learn Claude Code \u00A9 2026 \u00B7 \u8BA9\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u4E3A\u5F00\u6E90\u8D21\u732E\u4EE3\u7801
       </footer>
     </div>
   );

@@ -23,7 +23,7 @@ export default function GraduationModal({
   completedLevels,
   totalLevels,
 }: GraduationModalProps) {
-  const shareText = `我在 PRSchool 完成了 ${completedLevels}/${totalLevels} 关，学会了从终端到 Pull Request 的完整流程！`;
+  const shareText = `我在 Learn Claude Code 完成了 ${completedLevels}/${totalLevels} 关，学会了从终端到 Pull Request 的完整流程！`;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -86,7 +86,7 @@ export default function GraduationModal({
 
           <div className="space-y-2">
             <a
-              href="https://github.com/shareAI-lab/learn-claude-code"
+              href="https://github.com/day253/learn-claude-code"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3 bg-white text-zinc-900 rounded-xl font-semibold text-sm hover:bg-zinc-100 transition-colors"

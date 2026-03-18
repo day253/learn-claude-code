@@ -27,7 +27,7 @@ export default function Terminal({ shell, onCommand }: TerminalProps) {
     setLines([
       {
         type: "output",
-        text: "\u6B22\u8FCE\u6765\u5230 PRSchool \u7EC8\u7AEF\uFF01\u8F93\u5165 help \u67E5\u770B\u53EF\u7528\u547D\u4EE4\u3002",
+        text: "\u6B22\u8FCE\u6765\u5230 Learn Claude Code \u7EC8\u7AEF\uFF01\u8F93\u5165 help \u67E5\u770B\u53EF\u7528\u547D\u4EE4\u3002",
       },
     ]);
   }, []);

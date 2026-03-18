@@ -8,7 +8,7 @@ const level1_1: Level = {
   title: "你的第一条命令",
   description: "命令行（终端）是程序员和电脑对话的方式。你输入一条命令，电脑执行并返回结果。",
   instructions: [
-    "欢迎来到 PRSchool！在这里，你将学会用终端操作电脑。",
+    "欢迎来到 Learn Claude Code！在这里，你将学会用终端操作电脑。",
     "下面是一个模拟终端。试着输入 `whoami` 然后按回车，看看电脑怎么回答你。",
     "接着输入 `pwd` 查看你当前在哪个目录（文件夹），最后输入 `help` 看看还有哪些命令可以用。",
   ],
@@ -65,7 +65,7 @@ const level1_2: Level = {
           "todo.txt": "1. 学会终端基本操作\n2. 学会 Git\n3. 给开源项目提 PR！",
         },
         "pictures": {},
-        "README.md": "# 欢迎来到 PRSchool\n\n这是你的工作目录。",
+        "README.md": "# 欢迎来到 Learn Claude Code\n\n这是你的工作目录。",
       },
     },
   },

@@ -1,4 +1,4 @@
-# PRSchool — 从零到 Pull Request
+# Learn Claude Code — 从零到 Pull Request
 
 **交互式教程，在浏览器里学会终端、Git、GitHub 和 Claude Code。**
 
@@ -6,7 +6,7 @@
 
 ## 在线体验
 
-👉 **[https://shareai-lab.github.io/learn-claude-code](https://shareai-lab.github.io/learn-claude-code)**
+👉 **[https://day253.github.io/learn-claude-code](https://day253.github.io/learn-claude-code)**
 
 ## 你能学到什么
 
@@ -36,7 +36,7 @@
 ## 本地运行
 
 ```bash
-git clone https://github.com/shareAI-lab/learn-claude-code.git
+git clone https://github.com/day253/learn-claude-code.git
 cd learn-claude-code
 npm install
 npm run dev

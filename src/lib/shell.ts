@@ -27,7 +27,7 @@ export class Shell {
   get prompt(): string {
     const cwd = this.fs.cwd.replace("/home/user", "~") || "/";
     const branch = this.git.state.initialized ? ` (${this.git.state.branch})` : "";
-    return `student@prschool:${cwd}${branch}$ `;
+    return `student@learn:${cwd}${branch}$ `;
   }
 
   exec(input: string): ShellResult {

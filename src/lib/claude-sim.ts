@@ -40,7 +40,7 @@ const PATTERNS: {
     match: /clone|克隆/i,
     handler: (shell, input) => {
       const urlMatch = input.match(/(https?:\/\/\S+)/);
-      const url = urlMatch?.[1] || "https://github.com/prschool/practice-repo.git";
+      const url = urlMatch?.[1] || "https://github.com/learn-claude-code/practice-repo.git";
       const result = shell.exec(`git clone ${url}`);
       return {
         thinking: `用户想克隆仓库 ${url}`,
@@ -173,7 +173,7 @@ const PATTERNS: {
     handler: (shell) => {
       const prTitle = "feat: add student contribution";
       const prBody =
-        "## What\nAdded my contribution to the project.\n\n## Why\nLearning open source collaboration through PRSchool.\n\n## Changes\n- Created student profile\n- Following PR best practices";
+        "## What\nAdded my contribution to the project.\n\n## Why\nLearning open source collaboration through Learn Claude Code.\n\n## Changes\n- Created student profile\n- Following PR best practices";
       shell.fs.writeFile(shell.fs.resolve(".pr-title"), prTitle + "\n");
       shell.fs.writeFile(shell.fs.resolve(".pr-body"), prBody + "\n");
       return {

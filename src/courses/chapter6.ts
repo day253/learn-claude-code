@@ -9,14 +9,14 @@ const level6_1: Level = {
   description:
     "是时候把所学的全部用上了。你要独立完成一个完整的贡献流程。放轻松，你已经准备好了。",
   instructions: [
-    "任务：给 PRSchool 的练习仓库贡献你的「学员档案」。",
+    "任务：给 Learn Claude Code 的练习仓库贡献你的「学员档案」。",
     "你可以用终端命令或 Claude Code 来完成，选你喜欢的方式！",
-    "1. 克隆仓库：`git clone https://github.com/prschool/playground.git`",
+    "1. 克隆仓库：`git clone https://github.com/learn-claude-code/playground.git`",
     "2. 进入目录：`cd playground`",
     "3. 创建你的分支：`git checkout -b add-my-profile`",
     "4. 创建你的档案文件：`mkdir -p students` 然后创建 `students/graduate.json`",
     "5. 写入你的信息（随便写）：",
-    "`echo '{\"name\": \"PRSchool Graduate\", \"date\": \"2026-03-17\", \"learned\": [\"terminal\", \"git\", \"github\", \"PR\", \"claude-code\"]}' > students/graduate.json`",
+    "`echo '{\"name\": \"Learn Claude Code Graduate\", \"date\": \"2026-03-17\", \"learned\": [\"terminal\", \"git\", \"github\", \"PR\", \"claude-code\"]}' > students/graduate.json`",
     "6. 提交：`git add .` → `git commit -m 'feat: add my student profile'`",
   ],
   hints: [
@@ -58,15 +58,15 @@ const level6_2: Level = {
   order: 2,
   title: "提交 PR — 毕业！",
   description:
-    "最后一步：推送代码并完成 PR。做完这一步，你就是 PRSchool 毕业生了！",
+    "最后一步：推送代码并完成 PR。做完这一步，你就是 Learn Claude Code 毕业生了！",
   instructions: [
     "你已经在本地完成了所有修改。现在：",
     "1. 推送到远程：`git push`",
-    "2. 写 PR 标题：`echo 'Add student profile for PRSchool graduate' > .pr-title`",
+    "2. 写 PR 标题：`echo 'Add student profile for Learn Claude Code graduate' > .pr-title`",
     "3. 写 PR 描述：",
-    "`echo '## What\\nAdded my student profile to the playground repo.\\n\\n## Journey\\nCompleted all 6 chapters of PRSchool!\\n\\n## Learned\\n- Terminal basics\\n- Git workflow\\n- GitHub collaboration\\n- Pull Request process\\n- Claude Code' > .pr-body`",
+    "`echo '## What\\nAdded my student profile to the playground repo.\\n\\n## Journey\\nCompleted all 6 chapters of Learn Claude Code!\\n\\n## Learned\\n- Terminal basics\\n- Git workflow\\n- GitHub collaboration\\n- Pull Request process\\n- Claude Code' > .pr-body`",
     "4. 查看你的 PR：`cat .pr-title` 和 `cat .pr-body`",
-    "🎓 **恭喜你！你已经完成了 PRSchool 的全部课程！**",
+    "🎓 **恭喜你！你已经完成了 Learn Claude Code 的全部课程！**",
   ],
   hints: [
     "这是最后一关了，你已经学会了所有需要的技能！",
@@ -77,12 +77,12 @@ const level6_2: Level = {
       user: {
         playground: {
           ".git": {},
-          "README.md": "# PRSchool Playground\n\nPractice repo for PRSchool graduates.\n",
+          "README.md": "# Learn Claude Code Playground\n\nPractice repo for Learn Claude Code graduates.\n",
           students: {
             "example.json":
               '{\n  "name": "Example Student",\n  "date": "2026-01-01",\n  "learned": ["terminal", "git"]\n}\n',
             "graduate.json":
-              '{\n  "name": "PRSchool Graduate",\n  "date": "2026-03-17",\n  "learned": ["terminal", "git", "github", "PR", "claude-code"]\n}\n',
+              '{\n  "name": "Learn Claude Code Graduate",\n  "date": "2026-03-17",\n  "learned": ["terminal", "git", "github", "PR", "claude-code"]\n}\n',
           },
         },
       },
