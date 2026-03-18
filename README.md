@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PRSchool — 从零到 Pull Request
 
-## Getting Started
+**交互式教程，在浏览器里学会终端、Git、GitHub 和 Claude Code。**
 
-First, run the development server:
+打开网页直接学，不需要安装任何软件。手机也能用。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 在线体验
+
+👉 **[https://day253.github.io/prschool](https://day253.github.io/prschool)**
+
+## 你能学到什么
+
+```
+第1章  认识终端        ls, cd, cat — 命令行入门
+第2章  Git 基础       init, add, commit, branch — 版本控制
+第3章  GitHub 入门    Fork, Clone, Push — 远程协作
+第4章  Pull Request   创建 PR, Code Review, Merge
+第5章  Claude Code    用 AI 助手高效编程
+第6章  毕业挑战       独立完成一个真正的 PR
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6 章 20 关，2-4 小时学完。每一关都在模拟终端里实际操作，不是看视频。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 技术架构
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+纯前端，零服务端依赖：
 
-## Learn More
+- **Virtual Filesystem** — 内存中的文件系统模拟
+- **Simulated Git** — 前端实现的 Git 命令（init, add, commit, branch, push...）
+- **Shell Interpreter** — 命令解析和执行
+- **Claude Code Simulator** — 自然语言 → 命令翻译的 AI 模拟器
+- **进度保存** — localStorage，刷新不丢
 
-To learn more about Next.js, take a look at the following resources:
+技术栈：Next.js + TypeScript + Tailwind CSS + Framer Motion
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 本地运行
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/day253/prschool.git
+cd prschool
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+打开 http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 贡献
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+欢迎贡献！可以：
+
+- 改进现有关卡的说明和提示
+- 添加新的关卡或章节
+- 修复 bug
+- 改进 UI/UX
+- 翻译成其他语言
+
+提 Issue 或直接提 PR。
+
+## License
+
+MIT

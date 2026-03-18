@@ -8,8 +8,6 @@ import { CHAPTER_META, LAYER_COLORS, LAYERS } from "@/lib/constants";
 import {
   CheckCircle2,
   Circle,
-  ChevronRight,
-  User,
   ArrowRight,
   Terminal,
   GitBranch,
@@ -51,13 +49,15 @@ export default function ChapterSelect({
         >
           PRSchool
         </Link>
-        <Link
-          href="/auth"
+        <a
+          href="https://github.com/day253/prschool"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-bg-secondary)] transition-colors"
         >
-          <User size={14} />
-          登录
-        </Link>
+          <Github size={14} />
+          GitHub
+        </a>
       </div>
 
       {/* Hero summary */}

@@ -187,13 +187,15 @@ export default function Landing() {
             \u514D\u8D39\u5F00\u59CB\u5B66\u4E60
             <ArrowRight size={16} />
           </Link>
-          <Link
-            href="https://github.com/prschool/practice"
+          <a
+            href="https://github.com/day253/prschool"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-transparent border border-[var(--color-border)] text-[var(--color-text-secondary)] rounded-xl font-medium hover:border-[var(--color-border-hover)] hover:text-[var(--color-text)] transition-colors text-sm"
           >
             <Github size={16} />
-            \u67E5\u770B\u7EC3\u4E60\u4ED3\u5E93
-          </Link>
+            GitHub \u5F00\u6E90\u4ED3\u5E93
+          </a>
         </motion.div>
       </section>
 

@@ -86,13 +86,13 @@ export default function GraduationModal({
 
           <div className="space-y-2">
             <a
-              href="https://github.com/prschool/practice"
+              href="https://github.com/day253/prschool"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3 bg-white text-zinc-900 rounded-xl font-semibold text-sm hover:bg-zinc-100 transition-colors"
             >
               <Github size={16} />
-              去 GitHub 提交毕业 PR
+              去 GitHub 给项目点个 Star
             </a>
             <button
               onClick={() => {
