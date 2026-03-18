@@ -50,7 +50,7 @@ export default function ChapterSelect({
           PRSchool
         </Link>
         <a
-          href="https://github.com/day253/learn-claude-code"
+          href="https://github.com/shareAI-lab/learn-claude-code"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-bg-secondary)] transition-colors"

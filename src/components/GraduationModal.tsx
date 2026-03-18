@@ -86,7 +86,7 @@ export default function GraduationModal({
 
           <div className="space-y-2">
             <a
-              href="https://github.com/day253/learn-claude-code"
+              href="https://github.com/shareAI-lab/learn-claude-code"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3 bg-white text-zinc-900 rounded-xl font-semibold text-sm hover:bg-zinc-100 transition-colors"
