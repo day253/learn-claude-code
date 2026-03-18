@@ -6,7 +6,7 @@
 
 ## 在线体验
 
-👉 **[https://day253.github.io/prschool](https://day253.github.io/prschool)**
+👉 **[https://day253.github.io/learn-claude-code](https://day253.github.io/learn-claude-code)**
 
 ## 你能学到什么
 
@@ -36,8 +36,8 @@
 ## 本地运行
 
 ```bash
-git clone https://github.com/day253/prschool.git
-cd prschool
+git clone https://github.com/day253/learn-claude-code.git
+cd learn-claude-code
 npm install
 npm run dev
 ```

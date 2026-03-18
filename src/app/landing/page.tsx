@@ -188,7 +188,7 @@ export default function Landing() {
             <ArrowRight size={16} />
           </Link>
           <a
-            href="https://github.com/day253/prschool"
+            href="https://github.com/day253/learn-claude-code"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-transparent border border-[var(--color-border)] text-[var(--color-text-secondary)] rounded-xl font-medium hover:border-[var(--color-border-hover)] hover:text-[var(--color-text)] transition-colors text-sm"
