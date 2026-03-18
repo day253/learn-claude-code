@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=file:/app/data/prod.db
+      - GITHUB_CLIENT_ID=${GITHUB_CLIENT_ID}
+      - GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET}
+      - NEXT_PUBLIC_BASE_URL=${NEXT_PUBLIC_BASE_URL:-http://localhost:3000}
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
+      - ADMIN_PHONES=${ADMIN_PHONES}
+    volumes:
+      - prschool-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  prschool-data:
